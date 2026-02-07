@@ -1,0 +1,46 @@
+{
+		"inbounds": [],
+		"outbounds": [
+				{
+						"mux": {
+								"enabled": false
+						},
+						"protocol": "vless",
+						"settings": {
+								"vnext": [
+										{
+												"address": "simmurg.emocan.name.tr",
+												"port": 80,
+												"users": [
+														{
+																"encryption": "none",
+																"flow": "",
+																"id": "add19aac-90ea-4d71-b0ee-eda426ebfd68",
+																"level": 8
+														}
+												]
+										}
+								]
+						},
+						"streamSettings": {
+								"network": "tcp",
+								"security": "tls",
+								"tlsSettings": {
+										"allowInsecure": true,
+										"serverName": "whatsapp.net"
+								}
+						},
+						"tag": "VLESS"
+				}
+		],
+		"policy": {
+				"levels": {
+						"8": {
+								"connIdle": 300,
+								"downlinkOnly": 1,
+								"handshake": 4,
+								"uplinkOnly": 1
+						}
+				}
+		}
+}
