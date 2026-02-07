@@ -1,46 +1,552 @@
-{
-		"inbounds": [],
-		"outbounds": [
-				{
-						"mux": {
-								"enabled": false
-						},
-						"protocol": "vless",
-						"settings": {
-								"vnext": [
-										{
-												"address": "simmurg.emocan.name.tr",
-												"port": 80,
-												"users": [
-														{
-																"encryption": "none",
-																"flow": "",
-																"id": "add19aac-90ea-4d71-b0ee-eda426ebfd68",
-																"level": 8
-														}
-												]
-										}
-								]
-						},
-						"streamSettings": {
-								"network": "tcp",
-								"security": "tls",
-								"tlsSettings": {
-										"allowInsecure": true,
-										"serverName": "whatsapp.net"
-								}
-						},
-						"tag": "VLESS"
-				}
-		],
-		"policy": {
-				"levels": {
-						"8": {
-								"connIdle": 300,
-								"downlinkOnly": 1,
-								"handshake": 4,
-								"uplinkOnly": 1
-						}
-				}
-		}
-}
+[
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40899,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "COPY / HTTP/1.3[crlf]Host: [host][crlf][crlf]\n[lf][lf][instant_split][lf][lf]\nX / HTTP/1.2[crlf]Host: [host][crlf][lf][crlf]GET /jhvps1 HTTP/1.1[crlf]Host: [rotate=front4.cofilde.fun;front5.cofilde.fun;front6.cofilde.fun][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-05-19T21:44:53Z",
+        "description": "Prepago y Abono",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 620417,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Personal ➡︎ [Front #1]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "regbf.telecom.com.ar#inversores.telecom.com.ar",
+            "port": 80
+        },
+        "sorter": 1,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-10T17:46:32Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40899,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf]GET /app313798 HTTP/1.1[crlf]Host: [rotate=centraldacdn-6.dns-theromshost.com;centraldacdn-7.dns-theromshost.com;centraldacdn-8.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[instant_split][lf][lf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-05-24T01:35:12Z",
+        "description": "Prepago y Abono",
+        "dns_server": {
+            "dns1": "94.140.14.14",
+            "dns2": "94.140.15.15"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 631251,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Sin Anuncios [Proxy #1]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "mipersonaluat2.personal.com.ar#agresources-test.personal.com.ar#recarga.personal.com.ar",
+            "port": 80
+        },
+        "sorter": 3,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-10T17:57:46Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40899,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf]GET /app313798 HTTP/1.1[crlf]Host: [rotate=centraldacdn-6.dns-theromshost.com;centraldacdn-7.dns-theromshost.com;centraldacdn-8.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[instant_split][lf][lf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-05-30T16:54:35Z",
+        "description": "Prepago y Abono",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 655781,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Personal ➡︎ [Front #2]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "recargasuat.personal.com.ar#agresources-test.personal.com.ar#recarga.personal.com.ar",
+            "port": 80
+        },
+        "sorter": 2,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-10T17:50:34Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40899,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host:[host][lf*2][split]REBOT / HTTP/1.1[crlf]Host: ch.luisvps.online[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-06-02T17:37:11Z",
+        "description": "Usar con precaución",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 658143,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Cogela Megas #1",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "www.speedtest.net",
+            "port": 80
+        },
+        "sorter": 4,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-10T17:57:51Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40899,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "COPY / HTTP/1.3[crlf]Host: [host][crlf][crlf]\n[lf][lf][instant_split][lf][lf]\nX / HTTP/1.2[crlf]Host: [host][crlf][lf][crlf]GET /jhvps1 HTTP/1.1[crlf]Host: [rotate=front4.cofilde.fun;front5.cofilde.fun;front6.cofilde.fun][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-06-23T16:18:33Z",
+        "description": "Conexion Directa",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 695310,
+        "mode": "SSH_DIRECT",
+        "name": "✅ CloudFront #1 [JUEGOS #1]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "mipersonaluat2.personal.com.ar#agresources-test.personal.com.ar#recarga.personal.com.ar",
+            "port": 80
+        },
+        "sorter": 5,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7200
+        ],
+        "updated_at": "2025-07-10T17:57:57Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 40903,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf]GET /app81736 HTTP/1.1[crlf]Host: [rotate=front6.cofilde.fun;front5.cofilde.fun;front4.cofilde.fun][lf]Connection: Upgrade[lf]Upgrade: websocket[instant_split][lf][lf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-05-25T03:31:24Z",
+        "description": "Conectate Gratis",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 636536,
+        "mode": "SSH_DIRECT",
+        "name": "Servidor Gratuito 1",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "mipersonaluat2.personal.com.ar#agresources-test.personal.com.ar#recarga.personal.com.ar",
+            "port": 80
+        },
+        "sorter": 1,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-05T03:05:41Z",
+        "url_check_user": "https://f478d008f3.dtunnel.shop:2053",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 42654,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: 149.50.150.29[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-06-05T19:42:22Z",
+        "description": "VPN privada para navegación anónima",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/gbHC65cL/file.png",
+        "id": 663368,
+        "mode": "SSH_DIRECT",
+        "name": "VPN Segura #1",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "149.50.150.29",
+            "port": 80
+        },
+        "sorter": 1,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-06-27T02:46:27Z",
+        "url_check_user": "https://91952c2dec.dtunnel.shop:2053",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 42654,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: 149.50.150.29[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-06-05T19:57:31Z",
+        "description": "VPN privada para navegación anónima",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/84NXbnvP/file.png",
+        "id": 663409,
+        "mode": "SSH_DIRECT",
+        "name": "VPN Segura #2",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "149.50.150.29",
+            "port": 80
+        },
+        "sorter": 2,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-06-27T02:46:33Z",
+        "url_check_user": "https://91952c2dec.dtunnel.shop:2053",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 47322,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "COPY / HTTP/1.3[crlf]Host: [host][crlf][crlf]\n[lf][lf][instant_split][lf][lf]\nX / HTTP/1.2[crlf]Host: [host][crlf][lf][crlf]GET /jhvps1 HTTP/1.1[crlf]Host: [rotate=front4.cofilde.fun;front5.cofilde.fun;front6.cofilde.fun][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-07-15T19:59:59Z",
+        "description": "Prepago y Abono",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 728490,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Personal ➡︎ [Front #1]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "regbf.telecom.com.ar#inversores.telecom.com.ar",
+            "port": 80
+        },
+        "sorter": 1,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-15T20:00:22Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    },
+    {
+        "auth": {
+            "password": null,
+            "username": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "color": "",
+            "created_at": "",
+            "id": 0,
+            "name": "",
+            "sorter": 0,
+            "status": "",
+            "updated_at": "",
+            "user_id": ""
+        },
+        "category_id": 47322,
+        "cdns": null,
+        "config_openvpn": "",
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [host][crlf][crlf]GET /app313798 HTTP/1.1[crlf]Host: [rotate=centraldacdn-6.dns-theromshost.com;centraldacdn-7.dns-theromshost.com;centraldacdn-8.dns-theromshost.com][lf]Connection: Upgrade[lf]Upgrade: websocket[instant_split][lf][lf]",
+            "sni": ""
+        },
+        "config_v2ray": "",
+        "created_at": "2025-07-15T20:00:26Z",
+        "description": "Prepago y Abono",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "dnstt_key": "",
+        "dnstt_name_server": "",
+        "dnstt_server": "",
+        "icon": "https://i.ibb.co/mVYNr4Kw/6c8add242941.png",
+        "id": 728491,
+        "mode": "SSH_DIRECT",
+        "name": "✅ Personal ➡︎ [Front #2]",
+        "proxy": {
+            "host": "",
+            "port": 0
+        },
+        "server": {
+            "host": "recargasuat.personal.com.ar#agresources-test.personal.com.ar#recarga.personal.com.ar",
+            "port": 80
+        },
+        "sorter": 2,
+        "status": "ACTIVE",
+        "tls_version": "TLSv1.2",
+        "udp_ports": [
+            7300
+        ],
+        "updated_at": "2025-07-15T20:00:37Z",
+        "url_check_user": "http://149.50.150.29:500",
+        "user_id": "9023d30f-e51d-40d9-945b-a8155c9144c6"
+    }
+]
