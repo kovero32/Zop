@@ -1,8 +1,9 @@
 {
   "servers": [
     {
-      "remark": "Aurex Germany",
+      "remark": "VİP CONFİG",
       "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.snr.whatsapp.net#Ben"
     }
   ]
 }
+
