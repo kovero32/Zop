@@ -1,10 +1,19 @@
 {
   "servers": [
     {
-      "remark": "CONFİG",
-      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.snr.whatsapp.net#Ben"
+      "remark": "😁 WhatsApp",
+      "icon": "whatsapp",
+      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.snr.whatsapp.net#WA"
+    },
+    {
+      "remark": "😙 Facebook",
+      "icon": "facebook",
+      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.facebook.com#FB"
+    },
+    {
+      "remark": "😘 YouTube",
+      "icon": "youtube",
+      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.youtube.com#YT"
     }
   ]
 }
-
-
