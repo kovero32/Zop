@@ -1,9 +1,9 @@
 {
   "servers": [
     {
-      "remark": "😁 WhatsApp",
+      "remark": "🦅 WhatsApp Vüp",
       "icon": "whatsapp",
-      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.snr.whatsapp.net#WA"
+      "config": "vless://92065cc8-1ffe-4f83-a795-4d6934214fbc@r.vippp.site:35957?type=tcp&security=tls&sni=c.whatsapp.net#VLESS
     },
     {
       "remark": "😙 Facebook",
@@ -17,3 +17,4 @@
     }
   ]
 }
+
