@@ -1,14 +1,14 @@
 {
   "servers": [
     {
-      "remark": " WhatsApp Vüp",
+      "remark": "🎩 WhatsApp Vüp",
       "icon": "whatsapp",
       "config": "vless://92065cc8-1ffe-4f83-a795-4d6934214fbc@r.vippp.site:35957?encryption=none&type=tcp&security=tls&sni=c.whatsapp.net#VLESS"
     },
     {
-      "remark": "😙 Facebook",
+      "remark": "🔥 Facebook",
       "icon": "facebook",
-      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.facebook.com#FB"
+      "config": "trojan://telegram-id-privatevpns@52.208.32.156:22222?type=tcp&security=tls&sni=t.me&allowInsecure=1#TROJAN"
     },
     {
       "remark": "😘 YouTube",
@@ -17,6 +17,7 @@
     }
   ]
 }
+
 
 
 
