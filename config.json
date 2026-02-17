@@ -6,7 +6,6 @@
       "config": "vless://92065cc8-1ffe-4f83-a795-4d6934214fbc@r.vippp.site:35957?encryption=none&type=tcp&security=tls&sni=c.whatsapp.net#VLESS"
     },
     {
-      "name": "⚡ Free",
       "remark": "🔥 Facebook",
       "icon": "facebook",
       "config": "trojan://telegram-id-privatevpns@52.208.32.156:22222?type=tcp&security=tls&sni=t.me&allowInsecure=1#TROJAN"
@@ -18,6 +17,7 @@
     }
   ]
 }
+
 
 
 
