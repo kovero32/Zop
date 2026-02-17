@@ -1,7 +1,0 @@
-[
-  {
-    "name": "⚡ Free",
-    "url": "https://raw.githubusercontent.com/kovero32/Zop/refs/heads/main/configs.json",
-    "dev": "VoltronVPN"
-  }
-]
