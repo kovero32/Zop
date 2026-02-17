@@ -1,6 +1,8 @@
 {
   "servers": [
     {
+      "name": "⚡ Free",
+      "dev": "VoltronVpn"
       "remark": "🎩 WhatsApp Vüp",
       "icon": "whatsapp",
       "config": "vless://92065cc8-1ffe-4f83-a795-4d6934214fbc@r.vippp.site:35957?encryption=none&type=tcp&security=tls&sni=c.whatsapp.net#VLESS"
@@ -17,6 +19,7 @@
     }
   ]
 }
+
 
 
 
