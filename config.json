@@ -1,0 +1,28 @@
+{
+  "servers": [
+    {
+      "remark": " WhatsApp Viip",
+      "icon": "whatsapp",
+      "config": "vless://92065cc8-1ffe-4f83-a795-4d6934214fbc@r.vippp.site:35957?encryption=none&type=tcp&security=tls&sni=c.whatsapp.net#VLESS"
+    },
+    {
+      "remark": "🔥 GPT",
+      "icon": "facebook",
+      "config": "vless://ef7b5c0b-d2b8-4b86-80a3-5692a42c8a98@red.fixfold.eu.cc:443?encryption=none&security=tls&sni=openai.com&type=ws&host=openai.com&path=%2FDv8hjylMBiB4xxo0rI1dra&allowInsecure=1#VLESS"
+    },
+    {
+      "remark": "😘 YouTube",
+      "icon": "youtube",
+      "config": "trojan://l89FxFRVMJ@simmurg.emocan.name.tr:443?type=tcp&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=www.youtube.com#YT"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
